@@ -50,3 +50,9 @@ img {
     width: 300px;
     margin-top: 15px;
 }
+.imggoat {
+    width: 300px;
+    margin-top: 15px;
+    display: lock;
+    margin: 70 auto;
+}
