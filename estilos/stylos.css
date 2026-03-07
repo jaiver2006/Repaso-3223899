@@ -53,6 +53,17 @@ img {
 .imggoat {
     width: 300px;
     margin-top: 15px;
-    display: lock;
-    margin: 70 auto;
+    margin: 80px auto;
+    border-radius: 100%;
+}
+.imgcentrada {
+    display: block;
+}
+
+.nba1 {
+  width: 500px;
+  display: center;
+}
+.titulo {
+  width: 100px;
 }
