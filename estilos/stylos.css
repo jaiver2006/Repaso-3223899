@@ -3,13 +3,18 @@ body {
     background-color: #f4f4f4;
 }
 
-header, nav, footer {
+header,footer {
     text-align: center;
-    background-color: black;
+    background-color: rgb(20, 29, 104);
     color: white;
     padding: 10px;
 }
-
+nav {
+    text-align: center;
+    background-color: rgb(183, 55, 55);
+    color: rgb(212, 178, 178);
+    padding: 10px;
+}
 nav a {
     margin: 10px;
     color: white;
@@ -23,4 +28,8 @@ img {
 
 section {
     padding: 20px;
+}
+.video {
+    display: block;
+    margin: auto;
 }
