@@ -3,50 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario</title>
-    <link rel="stylesheet" href="estilos/stylos.css" />
-  </head>
-  <body>
-    <header><h1>Registro</h1></header>
-    <nav>
-      <a href="/index.html">Inicio</a>
-      <a href="/historia.html">Historia</a>
-      <a href="/jugadores.html">Jugadores</a>
-      <a href="/equipos.html">Equipos</a>
-      <a href="/campeonatos.html">Campeonatos</a>
-      <a href="/formulario.html">Formulario</a>
-    </nav>
+<title>Formulario</title>
+  <link rel="stylesheet" href="estilos/stylos.css">
+</head>
+<body>
+
+<header><h1>Registro</h1></header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="historia.html">Historia</a>
+  <a href="jugadores.html">Jugadores</a>
+  <a href="equipos.html">Equipos</a>
+  <a href="campeonatos.html">Campeonatos</a>
+  <a href="formulario.html">Formulario</a>
+</nav>
+
+<section>
+  <article>
+    <h2>Formulario de registro</h2>
     <form>
-  <label>Nombre:</label>
-  <input type="text" required>
+      <label>Nombre:</label>
+      <input type="text" required>
 
-  <label>Correo:</label>
-  <input type="email" required>
+      <label>Correo:</label>
+      <input type="email" required>
 
-  <label>Teléfono:</label>
-  <input type="tel" required>
+      <label>Teléfono:</label>
+      <input type="tel" required>
 
-  <label>Edad:</label>
-  <input type="number" min="10" max="99">
+      <label>Edad:</label>
+      <input type="number" min="10" max="99">
 
-  <label>Equipo favorito:</label>
-  <select>
-    <option>Lakers</option>
-    <option>Bulls</option>
-    <option>Celtics</option>
-    <option>Warriors</option>
-  </select>
+      <label>Equipo favorito:</label>
+      <select>
+        <option>Lakers</option>
+        <option>Bulls</option>
+        <option>Celtics</option>
+        <option>Warriors</option>
+        <option>Miami Heat</option>
+      </select>
 
-  <label>Género:</label>
-  <input type="radio" name="g"> Masculino
-  <input type="radio" name="g"> Femenino
+      <label>Género:</label>
+      <input type="radio" name="g"> Masculino
+      <input type="radio" name="g"> Femenino
 
-  <label>Suscripción:</label>
-  <input type="checkbox"> Recibir noticias NBA
+      <label>Suscripción:</label>
+      <input type="checkbox"> Recibir noticias NBA
 
-  <label>Comentario:</label>
-  <textarea></textarea>
+      <label>Comentario:</label>
+      <textarea></textarea>
 
-  <button type="submit">Enviar</button>
-</form>
+      <button type="submit">Enviar</button>
+    </form>
+  </article>
+
+  <!-- Nuevo formulario añadido -->
+  <article>
+    <h2>Encuesta para fans NBA</h2>
+    <form>
+      <label>¿Cuántos partidos ves por semana?</label>
+      <input type="number" min="0" max="7">
+
+      <label>Jugador favorito:</label>
+      <input type="text">
+
+      <label>¿Qué prefieres?</label>
+      <input type="radio" name="pref"> Temporada regular
+      <input type="radio" name="pref"> Playoffs
+
+      <label>¿Qué contenido te interesa?</label>
+      <input type="checkbox"> Noticias
+      <input type="checkbox"> Estadísticas
+      <input type="checkbox"> Videos
+
+      <label>Opinión sobre la NBA:</label>
+      <textarea></textarea>
+
+      <button type="submit">Enviar encuesta</button>
+    </form>
+  </article>
+</section>
+
+<footer><p>Formulario</p></footer>
+
+</body>
+</html>
 
