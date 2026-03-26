@@ -5,7 +5,7 @@ body {
 
 header, footer {
   text-align: center;
-  background-color: rgb(20, 29, 104);
+  background-color: rgb(50, 74, 168);
   color: white;
   padding: 10px;
 }
@@ -23,7 +23,7 @@ nav a {
 }
 
 h1, h2 {
-  color: darkblue;
+  color: rgb(139, 0, 28);
   text-align: center;
 }
 
