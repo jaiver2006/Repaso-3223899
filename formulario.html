@@ -1,45 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-<link rel="stylesheet" href="estilos/stylos.css">
-</head>
-<body>
-<header><h1>Registro</h1></header>
-<nav>
-    <a href="/index.html">Inicio</a>
-    <a href="/historia.html">Historia</a>
-    <a href="/jugadores.html">Jugadores</a>
-    <a href="/equipos.html">Equipos</a>
-    <a href="/campeonatos.html">Campeonatos</a>
-    <a href="/formulario.html">Formulario</a>
+    <link rel="stylesheet" href="estilos/stylos.css" />
+  </head>
+  <body>
+    <header><h1>Registro</h1></header>
+    <nav>
+      <a href="/index.html">Inicio</a>
+      <a href="/historia.html">Historia</a>
+      <a href="/jugadores.html">Jugadores</a>
+      <a href="/equipos.html">Equipos</a>
+      <a href="/campeonatos.html">Campeonatos</a>
+      <a href="/formulario.html">Formulario</a>
+    </nav>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" required />
+      <label>Correo:</label>
+      <input type="email" required />
 
-</nav>
-<form>
-<label>Nombre:</label>
-<input type="text" required>
+      <label>Equipo favorito:</label>
+      <select>
+        <option>Lakers</option>
+        <option>Bulls</option>
+      </select>
 
-<label>Correo:</label>
-<input type="email" required>
+      <label>Género:</label>
+      <input type="radio" name="g" /> Masculino
+      <input type="radio" name="g" /> Femenino
 
-<label>Equipo favorito:</label>
-<select>
-<option>Lakers</option>
-<option>Bulls</option>
-</select>
+      <label>Comentario:</label>
+      <textarea></textarea>
 
-<label>Género:</label>
-<input type="radio" name="g"> Masculino
-<input type="radio" name="g"> Femenino
+      <button type="submit">Enviar</button>
+    </form>
 
-<label>Comentario:</label>
-<textarea></textarea>
-
-<button type="submit">Enviar</button>
-</form>
-
-<footer><p>Formulario</p></footer>
-</body>
+    <footer><p>Formulario</p></footer>
+  </body>
 </html>
